@@ -67,8 +67,8 @@ for j in serial_numbers:
 alphabet = base62.CHARSET_INVERTED
 
 check_digits = []
-for i in full_serial_numbers:
-    full_serial_number = mod_37_36.calc_check_digit(i, alphabet)
+for k in full_serial_numbers:
+    full_serial_number = mod_37_36.calc_check_digit(k, alphabet)
     check_digits.append(full_serial_number)
 
 
