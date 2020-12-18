@@ -24,6 +24,3 @@ for i in check_lists:
     if mod_37_36.validate(segment_u, alphabet) == segment_u:
         print(segment_u + " is Valid.")
 
-#    for full_serial_numbers, check_digits in zip(full_serial_numbers, check_digits):
-#        full_codes = full_c + full_g + full_serial_numbers + check_digits + "\n"
-#        f_obj.write(full_codes)
