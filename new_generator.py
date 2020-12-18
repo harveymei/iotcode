@@ -8,7 +8,8 @@
 
 from stdnum.iso7064 import mod_37_36
 import base62
-import time
+
+
 alphabet = base62.CHARSET_INVERTED
 filename = input("请输入文件名：")
 
